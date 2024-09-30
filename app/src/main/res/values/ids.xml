@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="etPais1" type="id" />
+    <item name="etPais2" type="id" />
+    <item name="etPais3" type="id" />
+    <item name="btnSiguiente" type="id" />
+    <item name="editTextPais1" type="id" />
+    <item name="editTextPais2" type="id" />
+    <item name="editTextPais3" type="id" />
+    <item name="buttonEnviar" type="id" />
+    <item name="textViewNombre" type="id" />
+    <item name="textViewDeporte" type="id" />
+    <item name="textViewActivo" type="id" />
+</resources>
