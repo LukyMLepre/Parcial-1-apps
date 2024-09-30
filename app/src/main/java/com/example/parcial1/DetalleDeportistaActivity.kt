@@ -17,7 +17,6 @@ class DetalleDeportistaActivity : AppCompatActivity() {
         val deporte = intent.getStringExtra("deporteDeportista")
         val estaActivo = intent.getBooleanExtra("deportistaActivo", false)
 
-        // Mostrar datos en los TextViews
         val nombreTextView = findViewById<TextView>(R.id.textViewNombre)
         val deporteTextView = findViewById<TextView>(R.id.textViewDeporte)
         val estadoTextView = findViewById<TextView>(R.id.textViewActivo)
