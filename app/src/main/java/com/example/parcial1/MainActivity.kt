@@ -35,15 +35,6 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "No se encontraron países", Toast.LENGTH_SHORT).show()
         }
 
-        // Depuración y selección de país
-        spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
-            override fun onItemSelected(parent: AdapterView<*>, view: View?, position: Int, id: Long) {
-                Log.d("Spinner", "País seleccionado: ${paises[position]}")
-                deportistas = obtenerDeportistasPorPais(paises[position])
-                val nombres = deportistas.map { it.nombre }
-                listaDeportistas.adapter = ArrayAdapter(this@MainActivity, android.R.layout.simple_list_item_1, nombres)
-            }
-
             override fun onNothingSelected(parent: AdapterView<*>) {
             }
         }
